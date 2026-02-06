@@ -278,7 +278,7 @@ export default function Page() {
   useEffect(() => {
     if (yesPressed && noCount > 3 && !yespopupShown) {
       Swal.fire({
-        title: "I love you so much, Poonoo!! ❤️ You are my everything, my joy, my forever. Every moment with you is a memory Ashu will cherish forever, and my heart beats only for you.</br> Will you be the love of my life forever, Poonam?",
+        title: "I love you so much, meri Bubu!! ❤️ You are my everything, my joy, my forever. You're my pretty little beautiful girl, and my heart beats only for you.</br> Will you be the love of my life forever, Poonam?",
         width: 800,
         padding: "2em",
         color: "#716add",

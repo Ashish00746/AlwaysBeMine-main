@@ -4,14 +4,15 @@ const MarqueeProposal = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const sentences = [
-    "Poonoo, you light up my world like no one else.",
+    "I can't imagine my future without you, my Jaan.",
+    "Baby, you light up my world like no one else.",
     "Every moment with you feels like magic, my love.",
     "My world begins and ends with you, Poonam.",
     "Ashu's heart beats only for his Poonoo.",
     "Life feels complete when you're around, Poonoo.",
-    "I can't imagine my future without you, my Jaan.",
-    "You're Ashu's sunshine on the darkest days.",
-    "Poonoo, you're the missing piece of Ashu's heart.",
+    "I love you soooo soooo muchh!",
+    "We will marry soon",
+    "We will have cuteeee kids",
     "Will you be the love of my life forever, Poonam?",
   ];
 
