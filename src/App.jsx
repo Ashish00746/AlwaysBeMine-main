@@ -13,6 +13,10 @@ import purposerose from './assets/GifData/RoseCute.gif';
 import swalbg from './assets/Lovingbg2_main.jpg';
 import loveu from './assets/GifData/cutieSwal4.gif';
 
+import pic1 from './assets/pics/20250802_171107.jpg';
+import pic2 from './assets/pics/20250802_192702.jpg';
+import pic3 from './assets/pics/20250803_162346(2).jpg';
+
 //! yes - Gifs Importing
 import yesgif0 from "./assets/GifData/Yes/lovecutie0.gif";
 import yesgif1 from "./assets/GifData/Yes/love2.gif";
@@ -321,6 +325,26 @@ export default function Page() {
       <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
         {yesPressed && noCount > 3 ? (
           <>
+            {/* Side Photos */}
+            <div className="hidden lg:block">
+              <div className="fixed left-10 top-1/2 -translate-y-1/2 flex flex-col gap-8">
+                <div className="bg-white p-2 pb-8 shadow-xl rotate-[-6deg] hover:rotate-0 transition-transform duration-300 transform hover:scale-110">
+                  <img src={pic1} alt="Memory 1" className="w-48 h-48 object-cover border border-gray-100" />
+                  <p className="mt-4 text-center font-bold text-rose-500" style={{ fontFamily: "Charm, serif" }}>Together ❤️</p>
+                </div>
+                <div className="bg-white p-2 pb-8 shadow-xl rotate-[4deg] hover:rotate-0 transition-transform duration-300 transform hover:scale-110">
+                  <img src={pic3} alt="Memory 3" className="w-48 h-48 object-cover border border-gray-100" />
+                  <p className="mt-4 text-center font-bold text-rose-500" style={{ fontFamily: "Charm, serif" }}>Sweet Moments</p>
+                </div>
+              </div>
+              <div className="fixed right-10 top-1/2 -translate-y-1/2">
+                <div className="bg-white p-2 pb-8 shadow-xl rotate-[8deg] hover:rotate-0 transition-transform duration-300 transform hover:scale-110">
+                  <img src={pic2} alt="Memory 2" className="w-56 h-72 object-cover border border-gray-100" />
+                  <p className="mt-4 text-center font-bold text-rose-500" style={{ fontFamily: "Charm, serif" }}>My Everything ✨</p>
+                </div>
+              </div>
+            </div>
+
             <img
               ref={gifRef}
               className="h-[230px] rounded-lg"
